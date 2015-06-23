@@ -11,7 +11,7 @@ at the command prompt before you run the app.  It is best to clear the workspace
 ```
 rm(list=ls()) )
 require(shiny)
-runGitHub("samplingTestStat,"DataScienceUWL")
+runGitHub("samplingTestStat","DataScienceUWL")
 ```
 
 If you can make help make the app more robust, then please share!

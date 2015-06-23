@@ -142,13 +142,9 @@ shinyServer(function(input, output) {
     xrm[x<xmin]<-NA
     means[means>xmax]<<-NA
     means[means<xmin]<<-NA
-    print("before trm")
     trm<-tstats
-    print(length(trm))
-    print(str(trm))
     trm[tstats<tsmin]<-NA
     trm[tstats>tsmax]<-NA
-    print("removed outliers")
     
     par(mfrow=c(3,1),mar=c(8,6,2,2)) 
     
